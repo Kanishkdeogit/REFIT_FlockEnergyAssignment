@@ -1,0 +1,56 @@
+{
+  "features": [
+    "agg",
+    "lag1",
+    "lead1",
+    "lag2",
+    "lead2",
+    "lag3",
+    "lead3",
+    "lag4",
+    "lead4",
+    "lag5",
+    "lead5",
+    "mean5",
+    "std5",
+    "min5",
+    "max5",
+    "mean15",
+    "std15",
+    "min15",
+    "max15",
+    "mean30",
+    "std30",
+    "min30",
+    "max30",
+    "mean60",
+    "std60",
+    "min60",
+    "max60",
+    "diff1",
+    "diff_lead1",
+    "base120",
+    "agg_minus_base",
+    "hour",
+    "dow"
+  ],
+  "window_each_side_min": 5,
+  "cut_W": 25,
+  "on_threshold_W": 10,
+  "off_keep_in_training": 0.3,
+  "train_houses": [
+    1,
+    2,
+    3,
+    9
+  ],
+  "val_houses": [
+    5
+  ],
+  "test_houses": [
+    7,
+    10
+  ],
+  "lightgbm": "4.6.0",
+  "pandas": "2.3.3"
+}

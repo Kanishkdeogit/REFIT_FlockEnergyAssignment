@@ -1,0 +1,311 @@
+{
+  "n_rows": 8518763,
+  "n_unparseable_timestamps": 0,
+  "start": "2013-10-09 14:06:17+00:00",
+  "end": "2015-07-10 11:56:32+00:00",
+  "is_sorted_monotonic_increasing": false,
+  "n_out_of_order_steps": 2,
+  "n_duplicate_timestamps": 1211048,
+  "sampling_interval_sec": {
+    "median": 7.0,
+    "mean": 7.553910155761432,
+    "p01": 1.0,
+    "p99": 15.0,
+    "max": 3594414.0
+  },
+  "share_intervals_between_6_and_10_sec": 0.5315941483205281,
+  "n_gaps_gt_1min": 4040,
+  "n_gaps_gt_1hour": 21,
+  "n_gaps_gt_1day": 12,
+  "largest_gaps": [
+    {
+      "gap_start": "2014-01-24 01:56:25+00:00",
+      "gap_end": "2014-03-06 16:23:19+00:00",
+      "gap_hours": 998.45
+    },
+    {
+      "gap_start": "2015-05-10 23:36:10+00:00",
+      "gap_end": "2015-05-19 15:10:21+00:00",
+      "gap_hours": 207.57
+    },
+    {
+      "gap_start": "2015-06-10 13:19:01+00:00",
+      "gap_end": "2015-06-18 01:39:44+00:00",
+      "gap_hours": 180.35
+    },
+    {
+      "gap_start": "2015-04-03 01:43:17+00:00",
+      "gap_end": "2015-04-07 10:18:39+00:00",
+      "gap_hours": 104.59
+    },
+    {
+      "gap_start": "2015-03-22 08:15:59+00:00",
+      "gap_end": "2015-03-24 15:23:01+00:00",
+      "gap_hours": 55.12
+    }
+  ],
+  "missing_values": {
+    "Aggregate": 188973,
+    "Appliance1": 437890,
+    "Appliance2": 459468,
+    "Appliance3": 311961,
+    "Appliance4": 510963,
+    "Appliance5": 497223,
+    "Appliance6": 342337,
+    "Appliance7": 232752,
+    "Appliance8": 390705,
+    "Appliance9": 1911811
+  },
+  "negative_values": {
+    "Aggregate": 0,
+    "Appliance1": 0,
+    "Appliance2": 0,
+    "Appliance3": 0,
+    "Appliance4": 0,
+    "Appliance5": 0,
+    "Appliance6": 0,
+    "Appliance7": 0,
+    "Appliance8": 0,
+    "Appliance9": 0
+  },
+  "above_max_power": {
+    "Aggregate": 186,
+    "Appliance1": 846,
+    "Appliance2": 40,
+    "Appliance3": 118,
+    "Appliance4": 2085,
+    "Appliance5": 221,
+    "Appliance6": 36,
+    "Appliance7": 374,
+    "Appliance8": 179,
+    "Appliance9": 50
+  },
+  "describe": {
+    "Aggregate": {
+      "count": 8329790.0,
+      "mean": 466.53,
+      "std": 800.72,
+      "min": 0.0,
+      "50%": 238.0,
+      "99%": 3493.0,
+      "99.9%": 10678.0,
+      "max": 29159.0
+    },
+    "Appliance1": {
+      "count": 8080873.0,
+      "mean": 19.25,
+      "std": 176.7,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 85.0,
+      "99.9%": 107.0,
+      "max": 76677.0
+    },
+    "Appliance2": {
+      "count": 8059295.0,
+      "mean": 17.21,
+      "std": 93.08,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 58.0,
+      "99.9%": 61.0,
+      "max": 98301.0
+    },
+    "Appliance3": {
+      "count": 8206802.0,
+      "mean": 29.62,
+      "std": 76.45,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 82.0,
+      "99.9%": 196.0,
+      "max": 73725.0
+    },
+    "Appliance4": {
+      "count": 8007800.0,
+      "mean": 5.26,
+      "std": 399.71,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 0.0,
+      "99.9%": 1379.0,
+      "max": 98301.0
+    },
+    "Appliance5": {
+      "count": 8021540.0,
+      "mean": 10.83,
+      "std": 158.44,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 137.0,
+      "99.9%": 2340.0,
+      "max": 73725.0
+    },
+    "Appliance6": {
+      "count": 8176426.0,
+      "mean": 11.07,
+      "std": 158.02,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 0.0,
+      "99.9%": 2285.0,
+      "max": 37610.0
+    },
+    "Appliance7": {
+      "count": 8286011.0,
+      "mean": 2.89,
+      "std": 136.12,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 37.0,
+      "99.9%": 48.0,
+      "max": 98299.0
+    },
+    "Appliance8": {
+      "count": 8128058.0,
+      "mean": 6.39,
+      "std": 126.45,
+      "min": 0.0,
+      "50%": 0.0,
+      "99%": 42.0,
+      "99.9%": 54.0,
+      "max": 98301.0
+    },
+    "Appliance9": {
+      "count": 6606952.0,
+      "mean": 77.32,
+      "std": 276.35,
+      "min": 0.0,
+      "50%": 1.0,
+      "99%": 1024.0,
+      "99.9%": 1048.0,
+      "max": 65535.0
+    }
+  },
+  "cleaning": {
+    "duplicate_rows_collapsed": 597182,
+    "impossible_values_set_nan": {
+      "Aggregate": 147,
+      "Appliance1": 762,
+      "Appliance2": 35,
+      "Appliance3": 116,
+      "Appliance4": 1010,
+      "Appliance5": 70,
+      "Appliance6": 33,
+      "Appliance7": 373,
+      "Appliance8": 149,
+      "Appliance9": 43
+    },
+    "n_minutes_total": 920031,
+    "n_minutes_missing_before_fill": {
+      "Aggregate": 119692,
+      "Appliance1": 123778,
+      "Appliance2": 123473,
+      "Appliance3": 121143,
+      "Appliance4": 132837,
+      "Appliance5": 129691,
+      "Appliance6": 120560,
+      "Appliance7": 119701,
+      "Appliance8": 121889,
+      "Appliance9": 338427
+    },
+    "n_minutes_filled_short_gaps": {
+      "Aggregate": 899,
+      "Appliance1": 2801,
+      "Appliance2": 2371,
+      "Appliance3": 930,
+      "Appliance4": 3232,
+      "Appliance5": 3567,
+      "Appliance6": 839,
+      "Appliance7": 894,
+      "Appliance8": 1859,
+      "Appliance9": 1061
+    },
+    "n_minutes_flagged_long_gap": {
+      "Aggregate": 118793,
+      "Appliance1": 120977,
+      "Appliance2": 121102,
+      "Appliance3": 120213,
+      "Appliance4": 129605,
+      "Appliance5": 126124,
+      "Appliance6": 119721,
+      "Appliance7": 118807,
+      "Appliance8": 120030,
+      "Appliance9": 337366
+    },
+    "n_long_outages_aggregate": 382,
+    "longest_outages_aggregate": [
+      {
+        "start": "2014-01-24 01:57:00+00:00",
+        "end": "2014-03-06 16:22:00+00:00",
+        "minutes": 59906
+      },
+      {
+        "start": "2015-05-10 23:37:00+00:00",
+        "end": "2015-05-19 15:09:00+00:00",
+        "minutes": 12453
+      },
+      {
+        "start": "2015-06-10 13:20:00+00:00",
+        "end": "2015-06-18 01:38:00+00:00",
+        "minutes": 10819
+      },
+      {
+        "start": "2014-08-28 04:24:00+00:00",
+        "end": "2014-09-01 16:54:00+00:00",
+        "minutes": 6511
+      },
+      {
+        "start": "2015-04-03 01:44:00+00:00",
+        "end": "2015-04-07 10:17:00+00:00",
+        "minutes": 6274
+      },
+      {
+        "start": "2015-03-22 08:16:00+00:00",
+        "end": "2015-03-24 15:22:00+00:00",
+        "minutes": 3307
+      },
+      {
+        "start": "2015-05-24 10:10:00+00:00",
+        "end": "2015-05-26 12:08:00+00:00",
+        "minutes": 2999
+      },
+      {
+        "start": "2014-10-27 00:06:00+00:00",
+        "end": "2014-10-28 13:45:00+00:00",
+        "minutes": 2260
+      },
+      {
+        "start": "2015-03-31 04:23:00+00:00",
+        "end": "2015-04-01 16:25:00+00:00",
+        "minutes": 2163
+      },
+      {
+        "start": "2015-03-15 10:03:00+00:00",
+        "end": "2015-03-16 16:15:00+00:00",
+        "minutes": 1813
+      }
+    ],
+    "stuck_minutes": {
+      "Aggregate": 3431,
+      "Appliance1": 0,
+      "Appliance2": 0,
+      "Appliance3": 0,
+      "Appliance4": 86,
+      "Appliance5": 168,
+      "Appliance6": 0,
+      "Appliance7": 0,
+      "Appliance8": 0,
+      "Appliance9": 4309
+    }
+  },
+  "config": {
+    "MAX_FILL_MIN": 5,
+    "MAX_POWER_W": 15000,
+    "MAX_APPLIANCE_W": 4000,
+    "MIN_POWER_W": 0,
+    "FREQ": "1min",
+    "STUCK_MIN": 60,
+    "STUCK_MIN_W": 100
+  }
+}
