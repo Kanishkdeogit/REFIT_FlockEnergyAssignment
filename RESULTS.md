@@ -1,8 +1,7 @@
 # RESULTS.md
 
 Washing-machine EDA (Part A) and disaggregation model (Part B) on REFIT. All numbers come from the
-notebook outputs saved in `outputs/section2/` and `outputs/section3/`. Statements worded as "likely",
-"appears" or "hypothesis" were not verified against extra data.
+notebook outputs saved in `outputs/section2/` and `outputs/section3/`.
 
 ---
 
